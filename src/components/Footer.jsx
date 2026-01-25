@@ -29,9 +29,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-xs">
-            &copy; {new Date().getFullYear()} BIOMECEUTIQ. All rights reserved.
-          </p>
+          <div className="flex flex-col items-center md:items-start space-y-2">
+            <p className="text-gray-500 text-xs font-medium">
+              대표자: 김지현
+            </p>
+            <p className="text-gray-400 text-xs">
+              &copy; {new Date().getFullYear()} BIOMECEUTIQ. All rights reserved.
+            </p>
+          </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <span className="text-gray-400 text-xs">Privacy Policy</span>
             <span className="text-gray-400 text-xs">Terms of Service</span>
