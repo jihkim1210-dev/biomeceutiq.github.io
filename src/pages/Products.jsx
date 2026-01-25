@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import probioticsImage from '../assets/일동생활건강 100억 생유산균.jpeg'
 
 const products = [
   {
