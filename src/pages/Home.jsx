@@ -14,17 +14,17 @@ export default function Home() {
           <div className="absolute inset-0 bg-white/40" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in-up">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-6 tracking-widest break-words">
+          <h1 className="text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-6 tracking-widest">
             BIOMECEUTIQ
           </h1>
-          <p className="text-lg md:text-2xl text-gray-800 mb-10 font-light max-w-2xl mx-auto tracking-wide">
+          <p className="text-xl md:text-2xl text-gray-800 mb-10 font-light max-w-2xl mx-auto tracking-wide">
             A microbiome-based skin and health care.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
-             <Link to="/products" className="inline-block bg-gray-900 text-white px-8 py-3 md:px-10 md:py-4 text-sm tracking-widest hover:bg-gray-800 transition-colors uppercase font-medium">
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+             <Link to="/products" className="inline-block bg-gray-900 text-white px-10 py-4 text-sm tracking-widest hover:bg-gray-800 transition-colors uppercase font-medium">
               Shop Now
             </Link>
-            <Link to="/brand" className="inline-block border border-gray-900 text-gray-900 px-8 py-3 md:px-10 md:py-4 text-sm tracking-widest hover:bg-gray-900 hover:text-white transition-colors uppercase font-medium">
+            <Link to="/brand" className="inline-block border border-gray-900 text-gray-900 px-10 py-4 text-sm tracking-widest hover:bg-gray-900 hover:text-white transition-colors uppercase font-medium">
               Our Story
             </Link>
           </div>
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link to="/products" className="relative h-[500px] group overflow-hidden cursor-pointer block">
               <img 
-                src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000" 
+                src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&q=80&w=1000" 
                 alt="Skin Care" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
