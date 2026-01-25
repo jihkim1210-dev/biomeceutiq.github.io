@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import probioticsImage from './probiotics.jpg'
 
 const products = [
   {
@@ -52,7 +53,7 @@ const products = [
     category: 'Health Care',
     subcategory: 'Pre/Pro/Post-biotics',
     price: '30,000 KRW',
-    image: probioticsImage,
+    image: 'https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&q=80&w=800',
     description: '10 Billion probiotics with Postbiotics for gut health.'
   }
 ]
