@@ -42,8 +42,8 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Link to="/products" className="relative h-[500px] group overflow-hidden cursor-pointer block">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 sm:px-0">
+            <Link to="/products" className="relative h-[300px] sm:h-[400px] md:h-[500px] group overflow-hidden cursor-pointer block rounded-lg md:rounded-none">
               <img 
                 src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000" 
                 alt="Skin Care" 
