@@ -45,7 +45,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link to="/products" className="relative h-[500px] group overflow-hidden cursor-pointer block">
               <img 
-                src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=1000" 
+                src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000" 
                 alt="Skin Care" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
