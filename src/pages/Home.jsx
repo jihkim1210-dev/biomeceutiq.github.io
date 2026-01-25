@@ -56,7 +56,7 @@ export default function Home() {
                 </span>
               </div>
             </Link>
-            <Link to="/products" className="relative h-[500px] group overflow-hidden cursor-pointer block">
+            <Link to="/products" className="relative h-[300px] sm:h-[400px] md:h-[500px] group overflow-hidden cursor-pointer block rounded-lg md:rounded-none">
                <img 
                 src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80&w=1000" 
                 alt="Health Care" 
