@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import probioticsImage from '../assets/일동생활건강 100억 생유산균.jpeg'
 
 const products = [
   {
@@ -52,7 +53,7 @@ const products = [
     category: 'Health Care',
     subcategory: 'Pre/Pro/Post-biotics',
     price: '42,000 KRW',
-    image: 'https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&q=80&w=800',
+    image: probioticsImage,
     description: '10 Billion probiotics with Postbiotics for gut health.'
   }
 ]
