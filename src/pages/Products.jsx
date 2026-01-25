@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import probioticsImage from '/Users/jihyeon/Documents/trae_projects/Biomeceutiq_webpage/src/assets/ildong.jpeg'
 
 const products = [
   {
