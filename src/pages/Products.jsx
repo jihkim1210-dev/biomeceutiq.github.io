@@ -43,7 +43,7 @@ const products = [
     category: 'Health Care',
     subcategory: 'Supplements',
     price: '36,000 KRW',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&q=80&w=800',
     description: 'Nicotinamide Mononucleotide for cellular energy and anti-aging.'
   },
   {
@@ -53,7 +53,7 @@ const products = [
     subcategory: 'Pre/Pro/Post-biotics',
     price: '30,000 KRW',
     image: 'https://images.unsplash.com/photo-1576602976047-174e57a47881?auto=format&fit=crop&q=80&w=800',
-    description: '10 Billion probiotics with Postbiotics for gut health.'
+    description: '10 Billion probiotics with Postbiotics for gut health.',
   }
 ]
 
