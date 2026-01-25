@@ -28,7 +28,8 @@ export default function Navbar() {
               <img 
                 src={logo} 
                 alt="BIOMECEUTIQ" 
-                className="h-8 md:h-10 w-auto mix-blend-multiply" 
+                className="h-8 md:h-10 w-auto" 
+                style={{ mixBlendMode: 'multiply' }}
               />
             </Link>
           </div>
