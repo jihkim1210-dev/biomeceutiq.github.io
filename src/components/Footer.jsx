@@ -31,7 +31,7 @@ export default function Footer() {
         <div className="mt-16 border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex flex-col items-center md:items-start space-y-2">
             <p className="text-gray-500 text-xs font-medium">
-              대표자: 김지현
+              대표자: 김지현 <span className="mx-2">|</span> 사업자등록번호: 368-16-01624
             </p>
             <p className="text-gray-400 text-xs">
               &copy; {new Date().getFullYear()} BIOMECEUTIQ. All rights reserved.
