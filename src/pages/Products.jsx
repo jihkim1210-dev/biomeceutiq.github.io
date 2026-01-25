@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import probioticsImage from '../assets/일동생활건강 100억 생유산균.jpeg'
 
 const products = [
   {
@@ -16,7 +15,7 @@ const products = [
     name: '톤업 재생 크림',
     category: 'Skin Care',
     subcategory: 'Basic',
-    price: '45,000 KRW',
+    price: '28,000 KRW',
     image: 'https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=800',
     description: 'Tone-up regeneration cream for radiant skin.'
   },
@@ -25,7 +24,7 @@ const products = [
     name: '브로멜라인 퀘르세틴 정',
     category: 'Health Care',
     subcategory: 'Supplements',
-    price: '35,000 KRW',
+    price: '34,000 KRW',
     image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&q=80&w=800',
     description: 'Bromelain & Quercetin supplement for inflammation support.'
   },
@@ -34,7 +33,7 @@ const products = [
     name: '리포좀 글루타치온',
     category: 'Health Care',
     subcategory: 'Supplements',
-    price: '52,000 KRW',
+    price: '21,900 KRW',
     image: 'https://images.unsplash.com/photo-1584017911766-d451b3d0e843?auto=format&fit=crop&q=80&w=800',
     description: 'Liposomal Glutathione for superior absorption and antioxidant support.'
   },
@@ -43,7 +42,7 @@ const products = [
     name: 'NMN',
     category: 'Health Care',
     subcategory: 'Supplements',
-    price: '89,000 KRW',
+    price: '36,000 KRW',
     image: 'https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=800',
     description: 'Nicotinamide Mononucleotide for cellular energy and anti-aging.'
   },
@@ -52,7 +51,7 @@ const products = [
     name: '일동생활건강 생유산균 100억 낙산균 포스트바이오틱스',
     category: 'Health Care',
     subcategory: 'Pre/Pro/Post-biotics',
-    price: '42,000 KRW',
+    price: '30,000 KRW',
     image: probioticsImage,
     description: '10 Billion probiotics with Postbiotics for gut health.'
   }
