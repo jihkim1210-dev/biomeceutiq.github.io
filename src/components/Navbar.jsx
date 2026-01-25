@@ -25,7 +25,11 @@ export default function Navbar() {
         <div className="flex justify-between h-20 items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/">
-              <img src={logo} alt="BIOMECEUTIQ" className="h-8 md:h-10 w-auto" />
+              <img 
+                src={logo} 
+                alt="BIOMECEUTIQ" 
+                className="h-8 md:h-10 w-auto mix-blend-multiply" 
+              />
             </Link>
           </div>
           

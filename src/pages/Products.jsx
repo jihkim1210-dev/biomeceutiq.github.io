@@ -94,10 +94,10 @@ export default function Products() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10 md:gap-y-16">
           {filteredProducts.map((product) => (
             <div key={product.id} className="group cursor-pointer">
-              <div className="aspect-[4/5] w-full overflow-hidden bg-gray-100 mb-6 relative">
+              <div className="aspect-[4/5] w-full overflow-hidden bg-gray-100 mb-4 md:mb-6 relative">
                 <img
                   src={product.image}
                   alt={product.name}
