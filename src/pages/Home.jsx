@@ -18,7 +18,7 @@ export default function Home() {
             BIOMECEUTIQ
           </h1>
           <p className="text-lg md:text-2xl text-gray-800 mb-10 font-light max-w-2xl mx-auto tracking-wide px-2">
-            A microbiome-based skin and health care.
+            A microbiome-based solutions for skin and health.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
              <Link to="/products" className="inline-block bg-gray-900 text-white px-10 py-4 text-sm tracking-widest hover:bg-gray-800 transition-colors uppercase font-medium">
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link to="/products" className="relative h-[500px] group overflow-hidden cursor-pointer block">
               <img 
-                src="https://images.unsplash.com/photo-1629198688000-71f23e745b6e?auto=format&fit=crop&q=80&w=1000" 
+                src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&q=80&w=1000" 
                 alt="Microbiome Skin Care" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
