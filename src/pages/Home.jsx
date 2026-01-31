@@ -13,11 +13,11 @@ export default function Home() {
           />
           <div className="absolute inset-0 bg-white/40" />
         </div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in-up">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-6 tracking-widest">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-in-up w-full">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl font-serif font-bold text-gray-900 mb-6 tracking-widest break-words">
             BIOMECEUTIQ
           </h1>
-          <p className="text-xl md:text-2xl text-gray-800 mb-10 font-light max-w-2xl mx-auto tracking-wide">
+          <p className="text-lg md:text-2xl text-gray-800 mb-10 font-light max-w-2xl mx-auto tracking-wide px-2">
             A microbiome-based skin and health care.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
