@@ -43,7 +43,7 @@ const products = [
     category: 'Health Care',
     subcategory: 'Supplements',
     price: '36,000 KRW',
-    image: 'https://images.unsplash.com/photo-1626082927389-d52d83e57b38?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&q=80&w=800',
     description: 'Nicotinamide Mononucleotide for cellular energy and anti-aging.'
   },
   {
